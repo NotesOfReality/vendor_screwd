@@ -40,3 +40,6 @@ endif
 ifeq (screwd_berkeley,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/screwd_berkeley.mk
 endif
+ifeq (screwd_markw,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/screwd_markw.mk
+endif
