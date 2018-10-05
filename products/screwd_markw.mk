@@ -13,11 +13,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-#COPY THIS FILE IN "/vendor/screwd/products" AND ADD THE FOLLOWING UNCOMMENTED (Two times because it's coolest this way) LINES TO "/vendor/screwd/products/AndroidProducts.mk"
-##ifeq (screwd_markw,$(TARGET_PRODUCT))
-##    PRODUCT_MAKEFILES += $(LOCAL_DIR)/screwd_markw.mk
-##endif
-
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
